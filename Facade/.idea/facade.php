@@ -223,7 +223,6 @@ $nombreErr = $fechaDeNacimientoErr = $cedulaErr = $cedulaPadreErr = $cedulaMadre
 $nombre = $fechaDeNacimiento = $cedula = $cedulaPadre = $cedulaMadre = $sexo = $nacionalidad = $edad = $hijos = $matrimonios = $lugarDeVotacion = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    writeln("BANANA");
     if (empty($_POST["nombre"])) {
         $nameErr = "";
     } else {
