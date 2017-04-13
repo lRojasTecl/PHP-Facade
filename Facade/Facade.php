@@ -282,7 +282,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <br><br>
 
     <!-- Mas Datos: <input type="text" name="masDatosInput" value=" < ?php echo $birthdayInput;?>"></textarea> -->
-    <!-- <span class="error">* < ?php echo $masDatosErr;?></span> -->
+    <!-- <span class="error">* < ?php echo $masDatosErr;?></span> SI NO VERIFICA NADA NO PONGA ESTA LINEA (como en lugar de nacimiento) -->
     <!-- <br><br> -->
         
     Genero:
